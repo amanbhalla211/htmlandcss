@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(/Assignment/Project1/Assests/bg-img.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffc233;
+}
+button{
+    background-color: #ff515f;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+button:hover{
+    color: #ff515f;
+    background-color:#ffffff;
+}
+header{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Logo */
+.logo img{
+    height: 30px;
+    width: 100%;
+  
+} 
+/* Nav Bar */
+nav ul{
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    
+}
+ul li{
+    padding-right: 25px;
+    font-family: "Red Rose";   
+
+}
+header button{
+    padding: 0px 25px;
+    border: #ff515f;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Red Rose";
+    cursor: pointer;
+}
+
+/* Main Section  */
+main{
+    text-align: center;
+    
+}
+
+main h1{
+    font-family: "Dela Gothic One", cursive;
+    font-size: 65px;
+    padding-bottom: 50px;
+    
+
+}
+main button{
+    padding: 15px 25px;
+    font-size: 15px;
+    font-family: "Red Rose";
+    border: none;
+}
+
+/* footer part*/
+footer{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
